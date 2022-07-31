@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>NBP Api</title>
+</head>
+<body>
+    
+    <div class="container card mt-4 p-4">
+        <div class="alert alert-danger">
+            <h1 class="px-3 ">Kurs średni NBP</h1>
+        </div>
+        <div class="alert alert-primary col-12" role="alert" >
+            <div class="row mb-2">
+                <div class="col-2">
+                    <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-success btn-group action " id="eurBtn">EUR</button>
+                        <button type="button" class="btn btn-secondary btn-group action" id="usdBtn">USD</button>
+                        <button type="button" class="btn btn-secondary btn-group action" id="gbpBtn">GBP</button>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <input type="date" id="calendar" class="action">
+                </div>
+                <div class="col-2">
+                    <button class="btn btn-primary btn-sm" id="today">Dziś</button>
+                </div>
+            </div>
+
+            <textarea name="" id="target" cols="30" rows="4" disabled></textarea>
+        </div>        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

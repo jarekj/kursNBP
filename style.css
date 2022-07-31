@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e2e2e2;
+}
+
+.container {
+    background-color: #f0f0f0;
+
+}
